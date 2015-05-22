@@ -33,11 +33,13 @@ html, body {
 
 #menu {
 	display: none;
-	position: absolute;
+	position: fixed;
+	overflow: auto;
 	top: 0;
 	right: 0;
 
 	width: 190px;
+	height: 100%;
 	padding: 15px 25px;
 	margin: 0;
 
